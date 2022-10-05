@@ -61,6 +61,8 @@ function percentage(percent, total) {
   return (percent / 100) * total
 }
 
+console.log(percentage)
+
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
