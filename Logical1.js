@@ -47,12 +47,14 @@ console.log(number + 20)
 */
 
 let x = 12
+console.log(x)
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
 let name = "John Doe"
+console.log(name)
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
