@@ -66,7 +66,8 @@ console.log(x - 12)
 let name1 = "john"
 let name2 = "John"
 console.log(name1 === name2)
-console.log(name1 === "john")
+let lowerCaseFirst = name2.charAt(0).toLowerCase() + name2.slice(1)
+console.log(lowerCaseFirst === name1)
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
