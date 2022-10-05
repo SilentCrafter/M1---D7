@@ -57,10 +57,6 @@ console.log(findAverage(2, 10))
 let parts = 5
 let total = 120
 
-function percentage(percent, total) {
-  return (percent / 100) * total
-}
-
 console.log(parts / 100) * total
 
 /*EX 9
