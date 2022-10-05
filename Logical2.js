@@ -54,14 +54,14 @@ console.log(findAverage(2, 10))
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
-let percent = 80
-let total = 100
+let parts = 5
+let total = 120
 
 function percentage(percent, total) {
   return (percent / 100) * total
 }
 
-console.log(percentage)
+console.log(parts / 100) * total
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
