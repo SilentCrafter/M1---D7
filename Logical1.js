@@ -66,8 +66,8 @@ console.log(x - 12)
 let name1 = "john"
 let name2 = "John"
 console.log(name1 === name2)
-let lowerCaseFirst = name2.charAt(0).toLowerCase() + name2.slice(1)
-console.log(lowerCaseFirst === name1)
+let lowerCaseFirst = name2.charAt(0).toLowerCase() + name2.slice(1) // declared a variable called "lowerCaseFirst" and lowercased the first character of the string value of name2
+console.log(lowerCaseFirst === name1) //compares lowerCaseFirst variable holding altered name2 string
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
