@@ -30,7 +30,6 @@
 */
 
 let arr = [(2, 10)]
-arr.sort((a, b) => a - b)
 
 function findAverage(x, y) {
   let average = (x + y) / 2
