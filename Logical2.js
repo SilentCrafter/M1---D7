@@ -9,7 +9,7 @@
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*  */
 
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
@@ -29,7 +29,15 @@
  Write a piece of code for finding the average of two given integers.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let arr = [(2, 10)]
+arr.sort((a, b) => a - b)
+
+function findAverage(x, y) {
+  let average = (x + y) / 2
+  return average
+}
+
+console.log(findAverage(2, 10))
 
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
@@ -48,10 +56,14 @@
  (Ex.: the 20% of 400 is 80)
 */
 
-/* WRITE YOUR ANSWER HERE */
+function percentage(percent, total) {
+  return (percent / 100) * total
+}
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
 
-/* WRITE YOUR ANSWER HERE */
+function solution(num) {
+  return num % 2 === 0 ? "Even" : "Odd"
+}
