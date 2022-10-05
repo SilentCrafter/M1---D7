@@ -54,6 +54,8 @@ console.log(findAverage(2, 10))
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
+let percent = 80
+let total = 100
 
 function percentage(percent, total) {
   return (percent / 100) * total
