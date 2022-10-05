@@ -75,17 +75,6 @@ console.log(lowerCaseFirst === name1) //compares lowerCaseFirst variable holding
 */
 
 let y = 5
-if (y === 1) {
-  console.log("one")
-  if (y === 2) console.log("two")
-  if (y === 3) console.log("three")
-  if (y === 4) console.log("four")
-  if (y === 5) console.log("five")
-  if (y === 6) console.log("six")
-  if (y === 7) console.log("seven")
-  if (y === 8) console.log("eight")
-  if (y === 9) console.log("nine")
-}
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
