@@ -81,4 +81,6 @@ let chr = String.fromCharCode(97 + y)
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
 
-/* WRITE YOUR ANSWER HERE */
+let age = 26
+let beverage = age >= 21 ? "Beer" : "Juice"
+console.log(beverage)
