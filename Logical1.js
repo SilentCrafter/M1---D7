@@ -21,6 +21,9 @@ ASSIGNMENT RULES
 
     3) Booleans - statements/equations that evaluate to to either true or false. E.g: 5 < 6 (= True) or let Name = Alex --> Name === Bob (= False)
 
+    4) Null - emptied variable.
+
+    5) Undefined - yet to reveal the assigned value; not necessarily empty.
 */
 
 /* EXERCISE 2
