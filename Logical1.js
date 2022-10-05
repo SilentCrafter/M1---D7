@@ -74,8 +74,12 @@ console.log(lowerCaseFirst === name1) //compares lowerCaseFirst variable holding
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-let y = 3
-let chr = String.fromCharCode(97 + y)
+function intToChar(int) {
+  let y = (3).charCodeAt(0)
+  console.log(y)
+
+  return String.fromCharCode(y + int)
+}
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
